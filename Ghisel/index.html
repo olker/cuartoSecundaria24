@@ -1,0 +1,186 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.pagina {
+			display:flex;
+			border: solid black 1px;
+			justify-content:space-betweem;
+			flex-direction: column;
+			margin:5px;
+			border-radius: 10px;
+			background: #AFEEEE;
+		}
+		.navegacion{
+			align-items: center;
+		   	border-button:solid black 1px;
+		    text-align: center;	
+		    display: flex;
+		    justify-content:space-around;
+		    padding: 10px 0px;
+		    height:20px ;
+         }
+         body{
+         	font-family:Arial,sans-serif;
+         }
+         .search-container{
+         	display:flex;
+         	align-items:center;
+         	margin:10px;
+         }
+         input[type="text"]{
+         	padding:10px;
+         	font-size:16px;
+         	border:1px solid #ccc;
+         	border-radius:4px 0 0 4px;
+         	width:150px;
+         	height:10px;
+         }
+         .search-button{
+         	padding:10px;
+         	background-color:#f0f0f0;
+         	border:1px solid #ccc;
+         	border-left: none;
+         	border-radius:0 4px 4px 0;
+         	cursor:pointer;
+         }
+         .search-button img{
+         	width:10px;
+         	height:10px;
+         }
+
+        .logo{
+        	align-items: center;
+			padding: 10px auto;
+		    text-align: center;	
+		    height:100px;
+		    color: black;
+		    
+        }
+        .partes {
+        	display: flex;
+        	align-items:space-beteen;
+            justify-content:space-between;
+			padding: 10px;
+		    	
+		    
+        }
+        .principal{
+        	align-items: center;
+			padding: 0px;
+		    
+		    text-align: center;	
+		    display: flex;
+
+        }
+        .Recomendaciones {
+        	align-items: center;
+			padding: 0px;
+		   
+		    text-align: center;	
+		    display: flex;
+        }
+         .im {
+        	
+			padding: 0px;
+		    text-align: center;	
+		    display: flex;
+
+        }
+        .K-dramas {
+        	align-items: center;
+			padding: 0px;
+		   
+		    text-align: center;	
+		    display: flex;
+        }
+        .im2 {
+        	
+			padding: 0px;
+		    text-align: center;	
+		    display: flex;
+        }
+        .img{
+        	width:900px;
+        	height:200px;
+        }
+        .img2{
+        	width:150px;
+        	height:200px;
+        }
+        .sub{
+        	padding:20px ;
+        }
+
+
+       
+        
+	</style>
+
+</head>
+<body>
+	<div class="pagina">
+		<div class="navegacion">
+			<div class="entrada">
+				Encuentra tus series favoritas
+			</div>
+			<div class="lupa">
+				<input type="text" placeholder="Buscar...">
+				<button class="search-button">
+					<img src="lupa.png" alt="Lupa">
+			    </button>
+			</div>
+		</div>
+		<div class="logo">
+			<h1>k-series</h1>
+		</div>
+		<div class="partes">
+			<div class="casa">Casa</div>
+			<div class="series">Series</div>
+			<div class="peliculas">Películas</div>
+			<div class="series">k-dramas</div>
+			<div class="terror">Terror</div>
+		</div> 
+		<div class="principal">
+			<img class="img" src="imagen.jpg">
+		</div>
+		<div class="recomendaciones">
+			<div class="sub">
+
+				Recomendaciones
+			</div>
+          	<div class="im">
+				<div>imagen 
+					<img class="img2" src="imagen2.jpg"></div>
+				<div>imagen 
+				<img class="img2" src="imagen2.jpg"></div>
+				<div>imagen
+				<img class="img2" src="imagen2.jpg"></div>
+				<div>imagen
+				<img class="img2" src="imagen2.jpg"></div>
+		 	</div>
+		</div>
+		<div class="k-dramas">
+			<div class="sub">
+				k-dramas
+			</div>
+          	<div class="im2">
+				<div>imagen
+					<img class="img2" src="imagen3.jpg"></div>
+				<div>imagen
+				<img class="img2" src="imagen3.jpg"></div>
+				<div>imagen
+				<img class="img2" src="imagen3.jpg"></div>
+				<div>imagen
+				<img class="img2" src="imagen3.jpg"></div>
+		 	</div>
+		</div>
+
+
+	</div>
+
+</body>
+</html>
