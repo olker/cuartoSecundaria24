@@ -9,25 +9,40 @@
 	background:darkmagenta;
 	}
 	.jax{
-    border:solid blue 5px;
-	text-align: center;
-	height: 209px;
-	background: b;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		border:solid blue 5px;
+		text-align: center;
+		height: 209px;
+		padding: 0px 30%;
+	}
+	.jax form{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.jax form div{
+		display: flex;
+		justify-content: space-between;
 	}
 	.login{
 	color: red;
+	font-size: 38px;
 	}
     .titulo{
     color: red;
 	flex-flow: center;
     border:solid blue 7px;
 	text-align: center;
-	height: 56px;
+	font-size: 56px;
 	}
 	.boll{
-	display: inline-flex;
-	text-align: left;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
 	height: 34px;
+	padding-bottom: 25px;
 	}
 	.menu{
 	display: center;
@@ -44,10 +59,8 @@
 	.buscar{
 	display: center;
 	text-align: center;
-	height: 34px;}
-
-	
-}
+	height: 34px;
+	}
 
     </style>
 </head>
@@ -57,7 +70,7 @@
 		
 	</div>
 	<div class="boll">
-		<button class="archivos">archivos</div>
+		<button class="archivos">archivos</button>
 		<button class="menu">menu</button>
 	</div>
 	<div class="jax">
@@ -71,7 +84,7 @@
 				<input type="passsword" name="">
 				<label for="">password</label>
 			</div>
-			    <input type="submit" valve="ingresar">
+			<input type="submit" valve="ingresar">
 
 		</form>
 
